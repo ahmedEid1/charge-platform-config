@@ -6,8 +6,8 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: false
-          lowerCaseServiceId: true
+          enabled: true
+#          lowerCaseServiceId: true
 
 eureka:
   instance:
