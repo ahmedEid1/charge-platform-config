@@ -18,5 +18,17 @@ spring:
       schema-locations: classpath:init-schema.sql
       mode: always
 
-test:
-  boo: ja
+eureka:
+  instance:
+    preferIpAddress: true # to use the ip address instead of the hostname
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info: # will be shown in the euereka dashboard
+  app:
+    name: "booking"
+    description: "booking service for the charge platform"
+    version: "1.0.0"
