@@ -17,3 +17,6 @@ spring:
       platform: postgres
       schema-locations: classpath:init-schema.sql
       mode: always
+
+test:
+  boo: ja
