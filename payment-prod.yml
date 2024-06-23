@@ -1,0 +1,6 @@
+server:
+  port: 8889
+
+logging:
+  level:
+    com.platform.charge: ERROR
