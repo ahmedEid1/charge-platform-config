@@ -37,3 +37,12 @@ resilience4j.circuitbreaker:
       permittedNumberOfCallsInHalfOpenState: 2
       failureRateThreshold: 50
       waitDurationInOpenState: 60000 # 1 minute
+
+
+keycloak:
+  server-url: http://localhost:8080
+  realm: master
+  client-id: charge-platform-ac
+  client-secret: avSqHut0DnpYFNQSMicFzK7HEMk3AiGD
+  username: admin
+  password: admin
