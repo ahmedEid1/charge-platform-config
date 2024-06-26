@@ -41,8 +41,8 @@ resilience4j.circuitbreaker:
 
 keycloak:
   server-url: http://localhost:8080
-  realm: master
-  client-id: charge-platform-ac
-  client-secret: avSqHut0DnpYFNQSMicFzK7HEMk3AiGD
+  realm: platform
+  client-id: realm-management
+  client-secret: o8UV0ead7xjk8vvXWiAluLbi1nt0DPmo
   username: admin
   password: admin
