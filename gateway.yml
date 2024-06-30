@@ -12,7 +12,7 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          jwk-set-uri: "http://localhost:8075/realms/master/protocol/openid-connect/certs"
+          jwk-set-uri: "http://localhost:8075/realms/myrealm/protocol/openid-connect/certs"
 eureka:
   instance:
     preferIpAddress: true
