@@ -40,7 +40,8 @@ resilience4j.circuitbreaker:
 
 
 keycloak:
-  server-url: http://keycloak:8080
+#  server-url: http://keycloak:8080
+  server-url: http://localhost:8075
   realm: myrealm
   client-id: charge-platform-cc
   client-secret: KytBm9bKdhFz2ubpazhjOjK0tq5vQK90
