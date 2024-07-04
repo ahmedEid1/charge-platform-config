@@ -38,6 +38,11 @@ resilience4j.circuitbreaker:
       failureRateThreshold: 50
       waitDurationInOpenState: 60000 # 1 minute
 
+resilience4j.timelimiter:
+  configs:
+    default:
+      timeoutDuration: 10s
+
 
 keycloak:
   server-url: http://keycloak:8080
